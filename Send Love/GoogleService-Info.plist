@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1077002506462-ge0k82nn1bf68pr734s8icmig57ijlnm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1077002506462-ge0k82nn1bf68pr734s8icmig57ijlnm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDa6EO1g5q_uHsXumT_ynuPG78naW8k4oM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1077002506462</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.antoinegaia.Send-Love</string>
+	<key>PROJECT_ID</key>
+	<string>send-love-62921</string>
+	<key>STORAGE_BUCKET</key>
+	<string>send-love-62921.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1077002506462:ios:229ecd4435b59bf1ebf24f</string>
+	<key>DATABASE_URL</key>
+	<string>https://send-love-62921.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4022222D2351CDD1000668C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4022222C2351CDD1000668C6 /* AppDelegate.swift */; };
+		402222312351CDD1000668C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402222302351CDD1000668C6 /* ViewController.swift */; };
+		402222342351CDD1000668C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402222322351CDD1000668C6 /* Main.storyboard */; };
+		402222372351CDD1000668C6 /* Send_Love.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 402222352351CDD1000668C6 /* Send_Love.xcdatamodeld */; };
+		402222392351CDD3000668C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402222382351CDD3000668C6 /* Assets.xcassets */; };
+		4022223C2351CDD3000668C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4022223A2351CDD3000668C6 /* LaunchScreen.storyboard */; };
+		402222472351CDD3000668C6 /* Send_LoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402222462351CDD3000668C6 /* Send_LoveTests.swift */; };
+		402222522351D03D000668C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 402222512351D03D000668C6 /* GoogleService-Info.plist */; };
+		4024420423D614C000A95267 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4024420323D614C000A95267 /* UIView+Extension.swift */; };
+		404D9EAF2351F9780058A6EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D9EAE2351F9780058A6EA /* SignUpVC.swift */; };
+		405DDB9823D0DE3F00EDF219 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405DDB9723D0DE3F00EDF219 /* ProfileVC.swift */; };
+		405DDB9A23D0E31F00EDF219 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405DDB9923D0E31F00EDF219 /* SplashScreenVC.swift */; };
+		407A6AE82351FDD6001E2B07 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A6AE42351FDD6001E2B07 /* Tools.swift */; };
+		407A6AE92351FDD6001E2B07 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A6AE52351FDD6001E2B07 /* UIView+Extension.swift */; };
+		407A6AEA2351FDD6001E2B07 /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A6AE62351FDD6001E2B07 /* UITextField_Extension.swift */; };
+		407A6AEC23521027001E2B07 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A6AEB23521027001E2B07 /* HomeVC.swift */; };
+		77AD152CF585F84547E7C8D6 /* Pods_Send_Love.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F772588A930222D538D9DAA0 /* Pods_Send_Love.framework */; };
+		B11B30820AA1ECCAEDFFFF8F /* Pods_Send_LoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06EEE1A4735929BED9D9BC /* Pods_Send_LoveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402222432351CDD3000668C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402222212351CDD1000668C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402222282351CDD1000668C6;
+			remoteInfo = "Send Love";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		402222292351CDD1000668C6 /* Send Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4022222C2351CDD1000668C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		402222302351CDD1000668C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		402222332351CDD1000668C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		402222362351CDD1000668C6 /* Send_Love.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Send_Love.xcdatamodel; sourceTree = "<group>"; };
+		402222382351CDD3000668C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4022223B2351CDD3000668C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4022223D2351CDD3000668C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402222422351CDD3000668C6 /* Send LoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send LoveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402222462351CDD3000668C6 /* Send_LoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_LoveTests.swift; sourceTree = "<group>"; };
+		402222482351CDD3000668C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402222512351D03D000668C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4024420323D614C000A95267 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../UIView+Extension.swift"; sourceTree = "<group>"; };
+		404D9EAE2351F9780058A6EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		405DDB9723D0DE3F00EDF219 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		405DDB9923D0E31F00EDF219 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		407A6AE42351FDD6001E2B07 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		407A6AE52351FDD6001E2B07 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		407A6AE62351FDD6001E2B07 /* UITextField_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
+		407A6AEB23521027001E2B07 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6E06EEE1A4735929BED9D9BC /* Pods_Send_LoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Send_LoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E06FC9DBFF1DE9C3DD4E9A /* Pods-Send LoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Send LoveTests.release.xcconfig"; path = "Target Support Files/Pods-Send LoveTests/Pods-Send LoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		8579F44534E09D558AD2597E /* Pods-Send LoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Send LoveTests.debug.xcconfig"; path = "Target Support Files/Pods-Send LoveTests/Pods-Send LoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85EB5ACE0689D0DF2B235B68 /* Pods-Send Love.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Send Love.debug.xcconfig"; path = "Target Support Files/Pods-Send Love/Pods-Send Love.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7B321684685B50AF3C44F2 /* Pods-Send Love.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Send Love.release.xcconfig"; path = "Target Support Files/Pods-Send Love/Pods-Send Love.release.xcconfig"; sourceTree = "<group>"; };
+		F772588A930222D538D9DAA0 /* Pods_Send_Love.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Send_Love.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402222262351CDD1000668C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AD152CF585F84547E7C8D6 /* Pods_Send_Love.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4022223F2351CDD3000668C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B30820AA1ECCAEDFFFF8F /* Pods_Send_LoveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067F6545F67A471BE4630024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85EB5ACE0689D0DF2B235B68 /* Pods-Send Love.debug.xcconfig */,
+				9D7B321684685B50AF3C44F2 /* Pods-Send Love.release.xcconfig */,
+				8579F44534E09D558AD2597E /* Pods-Send LoveTests.debug.xcconfig */,
+				74E06FC9DBFF1DE9C3DD4E9A /* Pods-Send LoveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		402222202351CDD1000668C6 = {
+			isa = PBXGroup;
+			children = (
+				4022222B2351CDD1000668C6 /* Send Love */,
+				402222452351CDD3000668C6 /* Send LoveTests */,
+				4022222A2351CDD1000668C6 /* Products */,
+				067F6545F67A471BE4630024 /* Pods */,
+				668A6C878177689248B8B448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4022222A2351CDD1000668C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402222292351CDD1000668C6 /* Send Love.app */,
+				402222422351CDD3000668C6 /* Send LoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4022222B2351CDD1000668C6 /* Send Love */ = {
+			isa = PBXGroup;
+			children = (
+				4022222C2351CDD1000668C6 /* AppDelegate.swift */,
+				4022223D2351CDD3000668C6 /* Info.plist */,
+				402222352351CDD1000668C6 /* Send_Love.xcdatamodeld */,
+				402222512351D03D000668C6 /* GoogleService-Info.plist */,
+				407A6AE22351FDCC001E2B07 /* Utils */,
+				404F3607256D2E1A0083E4F6 /* Controllers */,
+				404F360E256D2E2B0083E4F6 /* Storyboard */,
+				402222382351CDD3000668C6 /* Assets.xcassets */,
+			);
+			path = "Send Love";
+			sourceTree = "<group>";
+		};
+		402222452351CDD3000668C6 /* Send LoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				402222462351CDD3000668C6 /* Send_LoveTests.swift */,
+				402222482351CDD3000668C6 /* Info.plist */,
+			);
+			path = "Send LoveTests";
+			sourceTree = "<group>";
+		};
+		404F3607256D2E1A0083E4F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				402222302351CDD1000668C6 /* ViewController.swift */,
+				404D9EAE2351F9780058A6EA /* SignUpVC.swift */,
+				407A6AEB23521027001E2B07 /* HomeVC.swift */,
+				405DDB9723D0DE3F00EDF219 /* ProfileVC.swift */,
+				405DDB9923D0E31F00EDF219 /* SplashScreenVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		404F360E256D2E2B0083E4F6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				402222322351CDD1000668C6 /* Main.storyboard */,
+				4022223A2351CDD3000668C6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		407A6AE22351FDCC001E2B07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				407A6AE42351FDD6001E2B07 /* Tools.swift */,
+				4024420323D614C000A95267 /* UIView+Extension.swift */,
+				407A6AE62351FDD6001E2B07 /* UITextField_Extension.swift */,
+				407A6AE52351FDD6001E2B07 /* UIView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		668A6C878177689248B8B448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F772588A930222D538D9DAA0 /* Pods_Send_Love.framework */,
+				6E06EEE1A4735929BED9D9BC /* Pods_Send_LoveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402222282351CDD1000668C6 /* Send Love */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4022224B2351CDD3000668C6 /* Build configuration list for PBXNativeTarget "Send Love" */;
+			buildPhases = (
+				38C0F7E4186EDA7581772ADC /* [CP] Check Pods Manifest.lock */,
+				402222252351CDD1000668C6 /* Sources */,
+				402222262351CDD1000668C6 /* Frameworks */,
+				402222272351CDD1000668C6 /* Resources */,
+				3886AC86F5C2454FC94C0705 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Send Love";
+			productName = "Send Love";
+			productReference = 402222292351CDD1000668C6 /* Send Love.app */;
+			productType = "com.apple.product-type.application";
+		};
+		402222412351CDD3000668C6 /* Send LoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4022224E2351CDD3000668C6 /* Build configuration list for PBXNativeTarget "Send LoveTests" */;
+			buildPhases = (
+				54BAE52154D050BB5DF0EB18 /* [CP] Check Pods Manifest.lock */,
+				4022223E2351CDD3000668C6 /* Sources */,
+				4022223F2351CDD3000668C6 /* Frameworks */,
+				402222402351CDD3000668C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402222442351CDD3000668C6 /* PBXTargetDependency */,
+			);
+			name = "Send LoveTests";
+			productName = "Send LoveTests";
+			productReference = 402222422351CDD3000668C6 /* Send LoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402222212351CDD1000668C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Antoine Gaia";
+				TargetAttributes = {
+					402222282351CDD1000668C6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					402222412351CDD3000668C6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 402222282351CDD1000668C6;
+					};
+				};
+			};
+			buildConfigurationList = 402222242351CDD1000668C6 /* Build configuration list for PBXProject "Send Love" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 402222202351CDD1000668C6;
+			productRefGroup = 4022222A2351CDD1000668C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402222282351CDD1000668C6 /* Send Love */,
+				402222412351CDD3000668C6 /* Send LoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402222272351CDD1000668C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402222522351D03D000668C6 /* GoogleService-Info.plist in Resources */,
+				4022223C2351CDD3000668C6 /* LaunchScreen.storyboard in Resources */,
+				402222392351CDD3000668C6 /* Assets.xcassets in Resources */,
+				402222342351CDD1000668C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402222402351CDD3000668C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3886AC86F5C2454FC94C0705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Send Love/Pods-Send Love-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Send Love/Pods-Send Love-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Send Love/Pods-Send Love-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C0F7E4186EDA7581772ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Send Love-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BAE52154D050BB5DF0EB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Send LoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402222252351CDD1000668C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405DDB9823D0DE3F00EDF219 /* ProfileVC.swift in Sources */,
+				407A6AEA2351FDD6001E2B07 /* UITextField_Extension.swift in Sources */,
+				402222312351CDD1000668C6 /* ViewController.swift in Sources */,
+				402222372351CDD1000668C6 /* Send_Love.xcdatamodeld in Sources */,
+				407A6AEC23521027001E2B07 /* HomeVC.swift in Sources */,
+				407A6AE92351FDD6001E2B07 /* UIView+Extension.swift in Sources */,
+				4024420423D614C000A95267 /* UIView+Extension.swift in Sources */,
+				4022222D2351CDD1000668C6 /* AppDelegate.swift in Sources */,
+				404D9EAF2351F9780058A6EA /* SignUpVC.swift in Sources */,
+				407A6AE82351FDD6001E2B07 /* Tools.swift in Sources */,
+				405DDB9A23D0E31F00EDF219 /* SplashScreenVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4022223E2351CDD3000668C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402222472351CDD3000668C6 /* Send_LoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402222442351CDD3000668C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402222282351CDD1000668C6 /* Send Love */;
+			targetProxy = 402222432351CDD3000668C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		402222322351CDD1000668C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				402222332351CDD1000668C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4022223A2351CDD3000668C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4022223B2351CDD3000668C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		402222492351CDD3000668C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4022224A2351CDD3000668C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4022224C2351CDD3000668C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EB5ACE0689D0DF2B235B68 /* Pods-Send Love.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUQ344M7X;
+				INFOPLIST_FILE = "Send Love/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoinegaia.Send-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4022224D2351CDD3000668C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7B321684685B50AF3C44F2 /* Pods-Send Love.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUQ344M7X;
+				INFOPLIST_FILE = "Send Love/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoinegaia.Send-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4022224F2351CDD3000668C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8579F44534E09D558AD2597E /* Pods-Send LoveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUQ344M7X;
+				INFOPLIST_FILE = "Send LoveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoinegaia.Send-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send Love.app/Send Love";
+			};
+			name = Debug;
+		};
+		402222502351CDD3000668C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E06FC9DBFF1DE9C3DD4E9A /* Pods-Send LoveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUQ344M7X;
+				INFOPLIST_FILE = "Send LoveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoinegaia.Send-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send Love.app/Send Love";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402222242351CDD1000668C6 /* Build configuration list for PBXProject "Send Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402222492351CDD3000668C6 /* Debug */,
+				4022224A2351CDD3000668C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4022224B2351CDD3000668C6 /* Build configuration list for PBXNativeTarget "Send Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4022224C2351CDD3000668C6 /* Debug */,
+				4022224D2351CDD3000668C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4022224E2351CDD3000668C6 /* Build configuration list for PBXNativeTarget "Send LoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4022224F2351CDD3000668C6 /* Debug */,
+				402222502351CDD3000668C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		402222352351CDD1000668C6 /* Send_Love.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				402222362351CDD1000668C6 /* Send_Love.xcdatamodel */,
+			);
+			currentVersion = 402222362351CDD1000668C6 /* Send_Love.xcdatamodel */;
+			path = Send_Love.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 402222212351CDD1000668C6 /* Project object */;
+}
